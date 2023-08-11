@@ -1,7 +1,7 @@
 {
   "name": "ds_docs",
-  "version": "0.0.1",
-  "description": "Directly Structured Documentation - Compiled MD",
+  "version": "0.0.5",
+  "description": "Directory Structured Documentation - Compiled MD",
   "main": "src/index.js",
   "publishConfig": {
     "access": "public"
