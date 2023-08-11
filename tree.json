@@ -1,0 +1,55 @@
+{
+  "path": "./build",
+  "name": "build",
+  "children": [
+    { "path": "build/index.html", "name": "index.html" },
+    {
+      "path": "build/someSite",
+      "name": "someSite",
+      "children": [
+        {
+          "path": "build/someSite/components",
+          "name": "components",
+          "children": [
+            {
+              "path": "build/someSite/components/component-1.dsdoc.md",
+              "name": "component-1.dsdoc.md",
+              "children": [
+                {
+                  "path": "build/someSite/components/component-1.dsdoc.md/index.html",
+                  "name": "index.html"
+                }
+              ]
+            },
+            {
+              "path": "build/someSite/components/component-2.md",
+              "name": "component-2.md",
+              "children": [
+                {
+                  "path": "build/someSite/components/component-2.md/index.html",
+                  "name": "index.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "build/someSite/lib",
+          "name": "lib",
+          "children": [
+            {
+              "path": "build/someSite/lib/some.md",
+              "name": "some.md",
+              "children": [
+                {
+                  "path": "build/someSite/lib/some.md/index.html",
+                  "name": "index.html"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
