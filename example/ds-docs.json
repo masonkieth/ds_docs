@@ -1,7 +1,7 @@
 {
   "requireDoc": false,
   "excludeDir": ["node_modules", ".git"],
-  "buildDir": "./build",
+  "buildDir": "./ds_docs",
   "projectName": "Project Name",
   "projetDescription": "Directly/Directory structured documentation."
 }
