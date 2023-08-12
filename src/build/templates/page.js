@@ -49,9 +49,6 @@ export const Page = (data, config) =>
             ${getFileStructure(config)}
           </bx-side-nav-items>
         </bx-side-nav>
-        <header>
-            <a href="/">Go back home</a>
-        </header>
         <div class="content">
                 <h1>${data.attributes.title}</h1>
             <p>${new Date(parseInt(data.attributes.date)).toDateString()}</p>
