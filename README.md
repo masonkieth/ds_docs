@@ -16,6 +16,8 @@ DS_Docs is not currently stable.
 
 ## Features
 
+![Project Screenshot](/images/screenshot.png)
+
 - UI Shell and Navigation menu from IBM's Carbon Design System.
 - Mirrors the source code's directory tree, making it easy for solo dev's to keep up with markdown files placed inline with their components source code.
 - Allows for use of .doc.md file extension, so that you can separate other .md files for other purposes. 
@@ -45,6 +47,13 @@ You can run the app with ```./bin/ds_doc```. Optionally you can use ```npm link`
     }
 ```
 The dependencies include light-server, if you use the example files to test with, just set bs-config.json to the correct path to server you files. 
+To use the example project:
+```bash
+$ yarn install
+$ cd example/
+$ ds_docs
+$ light-server -s ./example/ds_docs/ -p 3000
+```
 
 ## Contributing
 
@@ -58,4 +67,4 @@ The following was just part of the readme template I chose, I'm assuming it's co
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.md).
