@@ -10,28 +10,42 @@ export const Page = (data, config) =>
         <meta name="description" content="${data.attributes.description}" />
         <title>${data.attributes.title}</title>
         
+        <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.8.0/styles/default.min.css">
+        <script src="https://unpkg.com/@highlightjs/cdn-assets@11.8.0/highlight.min.js"></script>
+        <script src="https://unpkg.com/@highlightjs/cdn-assets@11.8.0/languages/sql.min.js"></script>
+        <script src="https://unpkg.com/@highlightjs/cdn-assets@11.8.0/languages/javascript.min.js"></script>
+        <script>hljs.highlightAll();</script>
+
         <link
         rel="stylesheet"
         href="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/version/v1.28.0/grid.css"
-      />
-      <link
-        rel="stylesheet"
-        href="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/version/v1.28.0/plex.css"
-      />
-      <script
-        type="module"
-        src="https://1.www.s81c.com/common/carbon/web-components/version/v1.28.0/ui-shell.min.js"
-      ></script>
+        />
+        <link
+          rel="stylesheet"
+          href="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/version/v1.28.0/plex.css"
+        />
+        <script
+          type="module"
+          src="https://1.www.s81c.com/common/carbon/web-components/version/v1.28.0/ui-shell.min.js"
+        ></script>
       <style>
+        p {
+          margin-left: 1rem;
+        }
         bx-header ~ bx-side-nav {
           margin-top: 3rem;
           height: calc(100% - 3rem);
         }
         .content {
           margin-left: 275px;
+          margin-right: 2rem;
           margin-top: 4rem;
         }
-
+        ul {
+          margin: 1rem;
+          list-style-type: disc;
+          list-style-position: inside;
+        }
         pre {
           background: #f4f4f4;
           border: 1px solid #ddd;
